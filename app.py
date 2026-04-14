@@ -105,7 +105,20 @@ def build_rss(episodes, base_url):
   <channel>
     <title>UCLA Mindful – Weekly Meditations &amp; Talks</title>
     <link>{FEED_URL}</link>
-    <description>Weekly meditations and talks from UCLA Mindful, led by Diana Winston, Marvin G. Belzer, Allyson Pimentel, and guest teachers.</description>
+    <description>Weekly meditations and talks from UCLA Mindful, led by Diana Winston, Marvin G. Belzer, Allyson Pimentel, and other guest teachers.
+
+English meditation and original content by UCLA Mindful's Director, Diana Winston or others noted above. 
+
+“Drop-in Meditations” created by Diana Winston and others (see above) for the UCLA Mindful (https://www.uclahealth.org/uclamindful), ©2011- 2021 The Regents of the University of California (The UC Regents).
+
+Drop-in Meditations are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+- NonCommercial — You may not use the material for commercial purposes.
+- NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material.
+- No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor (The UC Regents) endorses you or your use.
+
+Web-scraped and distributed under RSS via github.com/brwniez/ucla_podcast_scrape.</description>
     <language>en-us</language>
     <lastBuildDate>{now}</lastBuildDate>
     <atom:link href="{feed_url}" rel="self" type="application/rss+xml"/>
